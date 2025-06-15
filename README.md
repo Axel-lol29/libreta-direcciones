@@ -19,12 +19,21 @@ Este permite agregar, editar y listar contactos en una tabla con diseño profesi
 git clone https://github.com/Axel-lol29/libreta-direcciones.git
 cd libreta-direcciones
 
+## Cómo ejecutar el Backend (Flask)
+
 cd backend
+python -m venv venv
+venv\Scripts\activate        # En Windows
 pip install flask flask-cors
 python app.py
 
+## Cómo ejecutar el frontend (React + Vite)
+
 cd libreta-direcciones
 npm install
+npm install @mui/material @emotion/react @emotion/styled react-hook-form axios react-router-dom
 npm run dev
+
+
 
 
