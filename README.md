@@ -34,6 +34,6 @@ npm install
 npm install @mui/material @emotion/react @emotion/styled react-hook-form axios react-router-dom
 npm run dev
 
-
-
+## Host para poner en el navegador.
+http://localhost:5173/
 
